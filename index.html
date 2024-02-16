@@ -102,13 +102,14 @@
         </section>
         <!-- playground end -->
         <!-- final score start -->
-        <section id="score" class="flex justify-center items-center min-h-screen hidden">
+        <section id="final_score" class="flex justify-center items-center min-h-screen hidden">
             <div class=" text-white text-center space-y-5 bg-[#FFFFFF33] p-10 rounded-2xl">
+                <h3 class="text-3xl">Game Over!!!</h3>
                 <h1 class="text-8xl">
                     <span class="font-extrabold">Score: </span>
-                    <span>14</span>
+                    <span id="game_score">14</span>
                 </h1>
-                <button class="btn bg-white text-black hover:text-white">Play Again</button>
+                <button onclick="play()" class="btn bg-white text-black hover:text-white">Play Again</button>
                 <p class="text-xl">Practice will make you Pro</p>
             </div>
         </section>
